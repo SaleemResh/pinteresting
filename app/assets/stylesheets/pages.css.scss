@@ -1,3 +1,28 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+/* -------------- Fonts -------------- */
+
+.museo-sans {
+     &.light {
+          font-family: "museo-sans",sans-serif;
+          font-weight: 100;
+     }
+     &.regular {
+          font-family: "museo-sans",sans-serif;
+          font-weight: 300;
+     }
+     &.medium {
+          font-family: "museo-sans",sans-serif;
+          font-weight: 500;
+     }
+     &.bold {
+          font-family: "museo-sans",sans-serif;
+          font-weight: 700;
+     }
+     &.heavy {
+          font-family: "museo-sans",sans-serif;
+          font-weight: 900;
+     }
+}
